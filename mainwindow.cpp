@@ -85,6 +85,6 @@ void MainWindow::on_actionAbout_2_triggered()
     QMessageBox::about(this, tr("About"),
                        tr("<h4>Image Scissor: Have Fun :)</h4>"
                           "<p>Version: 0.1</p>"
-                          "<p>Creator: Zheng Rui, Muhammad Haris</p>"
+                          "<p>Author: Zheng Rui</p>"
                           ));
 }
