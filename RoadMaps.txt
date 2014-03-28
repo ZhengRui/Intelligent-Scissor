@@ -1,0 +1,26 @@
+Have Done:
+
+--- Using GraphicsView to display image
+
+--- Move GraphicsView's zooming and panning function from left click to right click
+
+--- Add Line Object to QGraphicsScene
+
+--- QGraphicsScene to QMatrix, when zooming, whether QMatrix size change
+
+--- Add buttons trigger imshow of pixel node, cost graph, path tree, min path
+
+--- delete some path, go back to seed, save
+
+
+
+
+To Be Done:
+
+--- video and cam fun
+
+
+
+Thinking :
+
+

@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/dead-tree-20.png</file>
+        <file>icons/document-new.png</file>
+        <file>icons/system-shutdown-panel.png</file>
+        <file>icons/gnome-sudoku.png</file>
+        <file>icons/format-text-direction-ltr.png</file>
+        <file>icons/edit-find.png</file>
+        <file>icons/document-save.png</file>
+        <file>icons/small_tree.gif</file>
+    </qresource>
+</RCC>

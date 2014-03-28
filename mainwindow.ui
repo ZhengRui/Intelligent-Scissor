@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+    <addaction name="actionAbout_2"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionPixelNode"/>
+   <addaction name="actionCostGraph"/>
+   <addaction name="actionPathTree"/>
+   <addaction name="actionMinPath"/>
+   <addaction name="actionPathTreeAni"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icons/icons/document-new.png</normaloff>:/icons/icons/document-new.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Open</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icons/icons/system-shutdown-panel.png</normaloff>:/icons/icons/system-shutdown-panel.png</iconset>
+   </property>
+   <property name="text">
+    <string>E&amp;xit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionPixelNode">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icons/icons/edit-find.png</normaloff>:/icons/icons/edit-find.png</iconset>
+   </property>
+   <property name="text">
+    <string>PixelNode</string>
+   </property>
+   <property name="toolTip">
+    <string>Show Pixel Node</string>
+   </property>
+  </action>
+  <action name="actionCostGraph">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icons/icons/gnome-sudoku.png</normaloff>:/icons/icons/gnome-sudoku.png</iconset>
+   </property>
+   <property name="text">
+    <string>CostGraph</string>
+   </property>
+   <property name="toolTip">
+    <string>Show Cost Graph</string>
+   </property>
+  </action>
+  <action name="actionPathTree">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icons/icons/dead-tree-20.png</normaloff>:/icons/icons/dead-tree-20.png</iconset>
+   </property>
+   <property name="text">
+    <string>PathTree</string>
+   </property>
+   <property name="toolTip">
+    <string>Show Path Tree</string>
+   </property>
+  </action>
+  <action name="actionMinPath">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icons/icons/format-text-direction-ltr.png</normaloff>:/icons/icons/format-text-direction-ltr.png</iconset>
+   </property>
+   <property name="text">
+    <string>MinPath</string>
+   </property>
+   <property name="toolTip">
+    <string>Show Minimum Path</string>
+   </property>
+  </action>
+  <action name="actionPathTreeAni">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icons/icons/small_tree.gif</normaloff>:/icons/icons/small_tree.gif</iconset>
+   </property>
+   <property name="text">
+    <string>PathTreeAni</string>
+   </property>
+   <property name="toolTip">
+    <string>Path Tree Generating Animation</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icons/icons/document-save.png</normaloff>:/icons/icons/document-save.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>Usage</string>
+   </property>
+   <property name="toolTip">
+    <string>Usage</string>
+   </property>
+  </action>
+  <action name="actionAbout_2">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
