@@ -34,4 +34,4 @@ System: Ubuntu 12.04LTS
 
 More about the usage, pleause visit:
 
-http://zhengrui.github.io/singleviewmetrology.html
+http://zhengrui.github.io/iscissor.html
