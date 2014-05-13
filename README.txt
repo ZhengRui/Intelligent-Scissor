@@ -30,5 +30,8 @@ System: Ubuntu 12.04LTS
                   press B = put the seed back to the first seed point(close the path)
                   
 
+//////////////////////////
 
-                  
+More about the usage, pleause visit:
+
+http://zhengrui.github.io/singleviewmetrology.html
